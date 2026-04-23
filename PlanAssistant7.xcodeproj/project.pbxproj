@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		582609362F98FFB2002EA6C2 /* AGENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 582609352F98FFB2002EA6C2 /* AGENTS.md */; };
+		58D2533E2F9A283E00377660 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 58D2533D2F9A283E00377660 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		582609272F98FFAF002EA6C2 /* PlanAssistant7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanAssistant7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		582609352F98FFB2002EA6C2 /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
+		58D2533D2F9A283E00377660 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -34,6 +36,11 @@
 			path = PlanAssistant7;
 			sourceTree = "<group>";
 		};
+		58D253392F9A26C500377660 /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Docs;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,8 @@
 		5826091E2F98FFAF002EA6C2 = {
 			isa = PBXGroup;
 			children = (
+				58D2533D2F9A283E00377660 /* README.md */,
+				58D253392F9A26C500377660 /* Docs */,
 				582609352F98FFB2002EA6C2 /* AGENTS.md */,
 				582609292F98FFAF002EA6C2 /* PlanAssistant7 */,
 				582609282F98FFAF002EA6C2 /* Products */,
@@ -81,6 +90,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				582609292F98FFAF002EA6C2 /* PlanAssistant7 */,
+				58D253392F9A26C500377660 /* Docs */,
 			);
 			name = PlanAssistant7;
 			packageProductDependencies = (
@@ -128,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D2533E2F9A283E00377660 /* README.md in Resources */,
 				582609362F98FFB2002EA6C2 /* AGENTS.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +288,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = PlanAssistant7/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +317,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = PlanAssistant7/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
